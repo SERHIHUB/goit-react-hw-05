@@ -1,0 +1,20 @@
+.container {
+  padding: 12px;
+}
+
+.form {
+  display: flex;
+  column-gap: 4px;
+}
+
+.input {
+  width: 400px;
+  border: 1px solid rgb(109, 104, 104);
+  border-radius: 8px;
+  padding-left: 24px;
+  font-size: 16px;
+}
+
+.btn {
+  border: 1px solid rgb(107, 99, 99);
+}

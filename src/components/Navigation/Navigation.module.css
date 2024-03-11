@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 12px;
+  padding: 12px 0px 12px 36px;
+  box-shadow: 0px 4px 4px rgb(206, 188, 188);
+}
+
+.active {
+  color: orange;
+}
