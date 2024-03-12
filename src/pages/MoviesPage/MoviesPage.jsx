@@ -42,12 +42,6 @@ const MoviesPage = () => {
     getData();
   }, [movieFilter]);
 
-  const filteredMovies = useMemo(() => {
-    return movies.filter((movie) =>
-      movie.title.toLowerCase().includes(movieFilter.toLowerCase())
-    );
-  }, [movieFilter, movies]);
-
   return (
     <div className={css.container}>
       <div>
